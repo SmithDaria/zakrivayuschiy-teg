@@ -81,6 +81,7 @@
 .like-icon.is-liked .heart {
   transform-origin: center;
   animation: heart 0.3s 0.1s ease-in;
+  animation-direction: alternate;
 }
 @keyframes sparks {
   from {
@@ -93,6 +94,7 @@
 }
 .like-icon.is-liked .sparks {
   animation: sparks 0.3s 0.3s ease-in;
+  animation-direction: alternate;
 }
 .like-icon .contour {
   fill: var(--heart-contour);

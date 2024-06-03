@@ -8,7 +8,6 @@
   --heart-sparks: #ff0000;
   --normal-font-weight: 400;
   --bold-font-weight: 700;
-  --background-image: url(../svg/pattern-dark.svg);
 }
 @media (width <=375px) {
   /* :root {
